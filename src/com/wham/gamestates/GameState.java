@@ -53,7 +53,7 @@ public class GameState extends BasicGameState {
 		for(int i = 0, j = 0; i < HOLES_COUNT; i++, j = i / 3) {
 			holes[i] = new MoleHole(200+(HOLES_SIZE+10)*(i%3), 250+(HOLES_SIZE+10)*j, HOLES_SIZE, HOLES_SIZE);
 			container.getInput().addListener(holes[i]);
-			holes[i].setAnimationDuration(700); // на пк за 0.5 секунды не поймать ничего, а 1с это слишком просто
+			holes[i].setAnimationDuration(500);
 		}
 		
 		hammerCoursor = new Image("res/sprites/hammer.png").getFlippedCopy(true, false);

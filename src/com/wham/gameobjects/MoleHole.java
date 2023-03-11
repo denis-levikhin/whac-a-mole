@@ -78,9 +78,8 @@ public class MoleHole extends InputAdapter {
 	}
 	
 	@Override
-	public void mouseClicked(int button, int x, int y, int clickCount) {
-		// можно добиться того же пробросив в этот класс объект GameState, и прибавлять новое очко через его интерфейс
-		super.mouseClicked(button, x, y, clickCount);
+	public void mousePressed(int button, int x, int y) {
+		super.mousePressed(button, x, y);
 		if (bounds.contains(x, y) && active && !locked) {
 			whacked = true;
 			locked = true;
