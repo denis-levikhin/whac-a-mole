@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java 8"/>
+	<classpathentry kind="lib" path="lib/slick/lib/ibxm.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/jinput.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/jna-4.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="whac-a-mole/lib/slick/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/slick/lib/natives-linux.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/natives-mac.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/slick/lib/slick.jar" sourcepath="lib/slick/slick-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/whac-a-mole/lib/slick/slick-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
